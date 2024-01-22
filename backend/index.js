@@ -17,6 +17,8 @@ app.post("/authenticate", async (req, res) => {
   // Extract 'username' from the request body
   const { username } = req.body;
 
+  462e6147-e5a0-46e7-88e7-a149d40d4f42
+
   // Send a response with the username and a placeholder secret
   // Note: In a real application, this should handle actual authentication
   // and return a real token or secret.
